@@ -1,0 +1,41 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4rem;
+  height: 20rem;
+}
+
+.main section {
+  width: 37rem;
+}
+
+.total {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 0.6rem;
+  font-size: 14px;
+
+}
+
+.total span {
+  margin-bottom: 1rem;
+}
+
+.total span:nth-child(1) {
+  color: var(--blue);
+}
+
+.total span:last-child {
+  color: var(--purple);
+}
+
+.tasks {
+  border-top: 1px var(--gray-300) solid;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
