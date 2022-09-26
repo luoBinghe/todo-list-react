@@ -6,4 +6,5 @@
   border-style: none;
   box-shadow: none;
   background-color: var(--gray-500);
+  color: var(--gray-100);
 }
